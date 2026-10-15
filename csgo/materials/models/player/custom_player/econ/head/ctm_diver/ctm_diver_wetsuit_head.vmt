@@ -1,0 +1,36 @@
+"character"
+{
+	"$basetexture"            "models/player/custom_player/econ/head/ctm_diver/ctm_diver_wetsuit_head_color"
+	"$bumpmap"                "models/player/custom_player/econ/head/ctm_diver/ctm_diver_wetsuit_head_normal"
+	"$masks1"                 "models/player/custom_player/econ/head/ctm_diver/ctm_diver_wetsuit_head_masks1"
+//	"$masks2"                 "models/player/custom_player/econ/head/ctm_diver/ctm_diver_wetsuit_head_masks2"
+	"$basealphaenvmask"       "1"
+		"$envmap"                 "env_cubemap"
+		"$envmaptint"             "[1.5 1.5 1.5]"
+		"$envmapsaturation"       "0.6"
+		"$envmaplightscale"       "1"
+		"$envmaplightscaleminmax" "[.48 1]"
+	"$phongwarptexture"       "models/player/custom_player/shared/ctm_specwarp_v2"
+	"$fresnelrangestexture"   "models/player/custom_player/shared/ctm_fresnelwarp_v2"
+	"$phongboost"             "0.5"
+	"$phongalbedoboost"       "2"
+	"$rimlightexponent"       "5"
+	"$rimlightboost"          "0.4"
+	"$rimlightalbedo"         "0.8"
+	$fakerimlightscaleminmax  "[0.01 1]"
+	"$fakerimtint"            "[0.5 0.7 1]"
+	"$fakerimboost"           "3.2"
+//	"$shadowsaturation"       "0.23"
+//	"$shadowsaturationbounds" "[-0.1 0.3 0.4 0.7]"
+//	"$shadowcontrast"         "0.05"
+//	"$shadowtint"             "[0 0.8 1 0.5]"
+//	"$ambientreflectionboost" "0.2"
+//	"$fresnelranges" "[0 0.5 1]"
+//	"$anisotropyamount"       "0.7"
+//	"$model"                  "1"
+//	
+//
+//	{
+//		"@teamctt@"  "ct"
+//	}
+}

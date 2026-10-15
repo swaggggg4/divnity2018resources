@@ -1,0 +1,42 @@
+"character"
+{
+	"$basetexture"            "models\player\custom_player\econ\body\tm_jungle_raider\tm_jungle_raider_variantc_upper_color"
+	"$bumpmap"                "models\player\custom_player\econ\body\tm_jungle_raider\tm_jungle_raider_variantc_upper_normal"
+	"$masks1"                "models\player\custom_player\econ\body\tm_jungle_raider\tm_jungle_raider_variantc_upper_masks1"
+	"$phongwarptexture"       "models/player/custom_player/shared/ctm_specwarp_v2"
+	"$fresnelrangestexture"   "models/player/custom_player/shared/ctm_fresnelwarp_v2"
+	"$phongboost"             "1"
+	"$phongexponent"          "64"
+	"$phongalbedoboost"       "1"
+	"$rimlightexponent"       "5"
+	"$rimlightboost"          ".3"
+	"$rimlightalbedo"         "0.2"
+	"$shadowsaturation"       "0.15"
+	"$shadowsaturationbounds" "[-0.1 0.3 0.4 0.7]"
+	"$shadowcontrast"         "0.02"
+	"$fakerimtint"            "[0.5 0.7 1]"
+	"$fakerimboost"           "6"
+	"$ambientreflectionboost" "0.1"
+	"$envmapsaturation"       "0.5"
+	"$envmaptint"             "[2 2 2]"
+	"$anisotropyamount"       "0.7"
+	"$model"                  "1"
+	
+	// character patch data
+	"$econ_patches_enabled" 1
+	"$decalbackingtexture" "models/weapons/customization/patches/default/patch_backing_bandage2"
+	"$decal0coordx" "-0.175000"
+	"$decal0coordy" "0.245000"
+	"$decal0scale" "12.922035"
+	"$decal0squash" "1.082917"
+	"$decal1coordx" "0.165000"
+	"$decal1coordy" "0.205000"
+	"$decal1scale" "6.422118"
+	"$decal1squash" "1.013105"
+	"$decal0camerapreset" "chest"
+	"$decal1camerapreset" "back"
+	"DecalFindReplaceValue"
+	{
+		"@teamctt@"  "t"
+	}
+}
